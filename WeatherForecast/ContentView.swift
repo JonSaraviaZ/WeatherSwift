@@ -13,14 +13,6 @@ struct ContentView: View {
             DayForecast(day: "Mon", isRainy: false, high: 70, low: 50 )
             DayForecast(day: "Tue", isRainy: true, high: 60, low: 50 )
             
-            /*VStack {
-                Text("Tue")
-                Image(systemName: "cloud.rain.fill")
-                    .foregroundStyle(Color.blue)
-                Text("High: 60")
-                Text("Low: 40")
-            }
-            .padding()*/
         }
     }
 }
